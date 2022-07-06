@@ -1,0 +1,30 @@
+CPE 453 Program 4 - TinyFS and Disk operations
+Damien Trunkey, Danveer Cheema, Sereen Benchohra
+
+
+1.) An explanation of how well your TinyFS implementation works
+
+We believe our tinyFS works well. There are a few bugs that we couldn't
+figure out how to fix due to time constraints. The basic functionality of 
+our program is there, but there are edge cases and error checks that are
+unaccounted for.
+
+
+2.) An explanation of which additional functionality areas you have chosen and how you have shown that it works.
+
+We decided to implement the renaming function and the stats function. We showed how it works
+through the demo by printing the desired output.
+
+
+3.) Any limitations or bugs your file system has.
+
+There are a few bugs in our code where some file contents get overwritten. This is probably due
+to the fact that we use python lists to store our files/fileSystem data. Also our 
+TFS_Delete function didn't work as intended.
+
+
+
+
+To run the demo simply put in the command line:
+
+TinyFSDemo
