@@ -1,0 +1,19 @@
+CPE453-Program 2 schedSim
+Damien Trunkey, Sereen Benchohra, Danveer Cheema
+
+Special instructions: We used python for this program so we had to create and executable called schedSim.exe but it can be invoked by just 'schedSim'
+from the command line with no .exe extension. A sample schedSim run looks like:
+
+schedSim <file.txt> -p <algorithm> -q <quantum>
+
+Answers to Questions:
+
+1.) STRN will have the same turnaround times as FIFO when the burst time corresponds with the arrival time i.e. the shortest job arrives first.
+They also have the same turnaround times when all jobs have the same burst time.
+
+2.) When the quantum length is larger than the highest burst time and the jobs arrive in increasing order of job size.
+
+3.) Average response time for all the jobs will go up because they will have to wait for all the previous jobs to execute before being scheduled.
+
+4.) Average response time will increase for all the jobs as the quantum increases because all jobs after the current job have to wait longer.
+The worst case response time for all jobs is Q(N-1) where Q is the quantum and N is the number of jobs.
