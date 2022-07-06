@@ -1,0 +1,10 @@
+CPE 453 program2 Memory Simulator
+Damien Trunkey, Danveer Cheema, Sereen Benchohra
+
+Special instructions: We used python for this program so we had to create and executable called memSim.exe but it can be invoked by just 'memSim'
+from the command line with no .exe extension. A sample memSim run looks like:
+
+memSim <file.txt> <frames> <algorithm>
+
+Things to know: Did not implement OPT due to not understanding it well enough. We thought our LRU page replacement would work but after some testing we realized 
+maybe its wrong.
